@@ -40,8 +40,7 @@ public class MainActivity extends Activity {
 	private TextView providerT;
 	private TextView receiveT;
 	private TextView statusT;
-	private Button resetBtn;	
-	private int dddddd;
+	private Button resetBtn;
 	private int receive;
 	
 	@Override
