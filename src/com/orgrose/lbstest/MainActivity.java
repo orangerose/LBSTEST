@@ -143,7 +143,7 @@ public class MainActivity extends Activity {
 			Log.i("BB", "Location changed.");
 		   	latitude.setText(Double.toString(MainActivity.this.location.getLatitude()));
 		   	longtitude.setText(Double.toString(MainActivity.this.location.getLongitude()));
-		   	providerT.setText(provider);
+//		   	providerT.setText(provider);
 		   	receiveT.setText(Integer.toString(receive));
 		   	getAddress();
 		}
