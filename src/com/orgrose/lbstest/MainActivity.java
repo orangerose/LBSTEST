@@ -73,7 +73,7 @@ public class MainActivity extends Activity {
 		providerT = (TextView) findViewById(R.id.provider);
 		receiveT = (TextView) findViewById(R.id.receive);
 		statusT = (TextView) findViewById(R.id.status);
-		;;;;;
+		
 		
 		locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);		
 		
@@ -143,7 +143,7 @@ public class MainActivity extends Activity {
 			Log.i("BB", "Location changed.");
 		   	latitude.setText(Double.toString(MainActivity.this.location.getLatitude()));
 		   	longtitude.setText(Double.toString(MainActivity.this.location.getLongitude()));
-//		   	providerT.setText(provider);
+		   	providerT.setText(provider);
 		   	receiveT.setText(Integer.toString(receive));
 		   	getAddress();
 		}
