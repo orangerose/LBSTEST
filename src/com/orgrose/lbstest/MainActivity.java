@@ -73,7 +73,7 @@ public class MainActivity extends Activity {
 		providerT = (TextView) findViewById(R.id.provider);
 		receiveT = (TextView) findViewById(R.id.receive);
 		statusT = (TextView) findViewById(R.id.status);
-		;;;;;;;
+		;;;;;
 		
 		locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);		
 		
